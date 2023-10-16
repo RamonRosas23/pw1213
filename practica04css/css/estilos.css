@@ -1,0 +1,30 @@
+body{
+    border: 1.5px solid red;
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1078px; /* Tamanio de ventana */
+    min-width: 1078px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: 20px;
+    padding-bottom: 4px;
+}
+
+header article {
+    display: inline-block;
+}
+#headerArt02 {
+    float: right;
+}
+#headerArt02 div {
+    float: right;
+}
+
+#headerArt02 .gotoshop {
+    position: relative;
+    top: 100px;
+}
