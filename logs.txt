@@ -1,3 +1,46 @@
+commit a7f1ae1d5eddfd9724de856138cb3f984cf6739c
+Author: RamonRosas23 <L20171533@culiacan.tecnm.mx>
+Date:   Wed Oct 18 23:55:54 2023 -0700
+
+    Practica04 CSS estilos 02 Full
+
+commit f344cab086446068b350aaba271ec28d0c651cb4
+Merge: 4d4affd e912d85
+Author: CCDM16 <CCDM16@CCDM16.local>
+Date:   Mon Oct 16 13:00:55 2023 -0700
+
+    Merge branch 'main' of https://github.com/RamonRosas23/pw1213 into main
+
+commit 4d4affd3698d48b2a9b9db106570177b54a6a9f7
+Author: CCDM16 <CCDM16@CCDM16.local>
+Date:   Mon Oct 16 12:55:41 2023 -0700
+
+    Practica04 CSS estilos 01
+
+commit e912d85ce7a32c31b7586cb150ca52f78e45a3bc
+Author: RamonRosas23 <L20171533@culiacan.tecnm.mx>
+Date:   Thu Oct 12 21:35:43 2023 -0700
+
+    Prueba commit house
+
+commit b9e305a0ebaa3a8fe8c6f89a95a7f27ac64c75f9
+Author: CCDM16 <CCDM16@CCDM16.local>
+Date:   Thu Oct 12 12:58:03 2023 -0700
+
+    Todas las practicas
+
+commit bd97a73fe78f32f55e7b1836c4c0c83e8051d3b6
+Author: CCDM16 <CCDM16@CCDM16.local>
+Date:   Mon Sep 25 12:54:16 2023 -0700
+
+    Practica01 css - estructura
+
+commit 8b348ec4355e6bc037dd9078dbe615cf53d3fbec
+Author: CCDM16 <CCDM16@CCDM16.local>
+Date:   Thu Sep 7 12:50:27 2023 -0700
+
+    Respaldo logs
+
 commit e3e347174f01ba9484032fd909ee955c19085e86
 Author: CCDM16 <CCDM16@CCDM16.local>
 Date:   Thu Sep 7 12:40:54 2023 -0700
