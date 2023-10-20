@@ -1,0 +1,59 @@
+body{
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1078px; /* Tamanio de ventana */
+    min-width: 1078px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header nav ul li {
+    position: relative;
+    display: inline-block;
+    padding-right: 240px;
+}
+
+.letra_grande {
+    font-size: 15ch;
+}
+
+.nito {
+    font-weight: bold;
+}
+
+
+.letra_blanca {
+    color: rgb(244, 239, 239);
+}
+
+#seccion01 {
+    text-align: center;
+}
+
+#seccion02 article {
+    display: inline-block;
+}
+
+#seccion03 {
+    text-align: center;
+}
+
+#seccion04 article{
+    display: inline-block;
+}
+
+#paisaje1 {
+    position: relative;
+    width: 675px; /* Ancho personalizado */
+}
+
+#paisaje2 {
+    position: relative;
+    width: 385px; /* Ancho personalizado */
+    height: 163px;
+}   
+
+.drch {
+    position: relative;
+    right: -130px;
+}
+
