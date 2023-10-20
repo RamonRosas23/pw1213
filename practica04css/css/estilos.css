@@ -1,4 +1,4 @@
-body{
+body {
     font-size: 18px; /* 1em */
     margin: 0px auto;
     max-width: 1340px; /* Tamanio de ventana */
@@ -7,17 +7,36 @@ body{
     /* 470 */
 }
 
+footer {
+    position: relative;
+    top: 25px;
+    font-size: 18px;
+}
+
+footer article {
+    vertical-align: top;
+    display: inline-block;
+    width: 16%;
+    padding-left: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
 header article {
     display: inline-block;
 }
 
-header nav ul{
+header nav ul {
     margin-left: -15px;
     margin-top: 100px;
     margin-bottom: 55px;
 }
 
-header nav ul li{
+header nav ul li {
     display: inline-block;
     font-size: 2ch;
     margin-right: 35px;
@@ -29,10 +48,40 @@ header nav ul li:hover {
 	cursor: pointer;
 }
 
-hr{
-    border-style: dashed;
-    color: #949494;
-} 
+footer ul li:hover {
+    color: #78F14C; /* Cambia el color de texto al pasar el mouse por encima */
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse por encima */
+	cursor: pointer;
+}
+
+#bicicleta {
+    position: relative;
+    left: 50px;
+    width: 517px; /* Ancho personalizado */
+    height: 632.5px; /* Altura personalizada */
+    /* 470 × 575 */
+}
+
+#buy {
+    position: relative;
+    top: 140px;
+    right: 220px;
+}
+
+#garantia {
+    position: relative;
+    top: -100px;
+    left: 40px;
+    width: 202.4px; /* Ancho personalizado */
+    height: 114.4px; /* Altura personalizada */
+    /* 184 × 104 */
+}
+
+#gotoshop {
+    position: relative;
+    top: 70px;
+    right: -80px;
+}
 
 #headerArt02 {
     float: right;
@@ -45,6 +94,12 @@ hr{
     right: 10px;
 }
 
+#LogoFirstBike {
+    position: relative;
+    top: 35px;
+    left: 25px;
+}
+
 #primeraSeccion {
     margin-left: 20px;
     display: grid;
@@ -52,49 +107,29 @@ hr{
     
 }
 
-#bicicleta {
+#segundaSeccion {
     position: relative;
-    left: 50px;
-    width: 517px; /* Ancho personalizado */
-    height: 632.5px; /* Altura personalizada */
-    /* 470 × 575 */
+    left: 20px;
+    top: -25px;
 }
 
-#garantia {
+#segundaSeccion img{
     position: relative;
-    top: -100px;
-    left: 40px;
-    width: 202.4px; /* Ancho personalizado */
-    height: 114.4px; /* Altura personalizada */
-    /* 184 × 104 */
+    right: 5px;
 }
 
-#buy {
+#segundaSeccion span{
     position: relative;
-    top: 140px;
-    right: 220px;
+    top: -15px;
+    left: 5px;
 }
 
-#LogoFirstBike {
-    position: relative;
-    top: 35px;
-    left: 25px;
+#tamVideo {
+    width: 47.5%;
 }
 
-#gotoshop {
-    position: relative;
-    top: 70px;
-    right: -80px;
-}
-
-.color_verde {
-    color: #78F14C;
-}
-
-.letra_gris {
-    color: #9E9E9E;
-    font-size: 2.2ch;
-
+.art_largo {
+    width: 22.1%;
 }
 
 .espaciado {
@@ -102,27 +137,44 @@ hr{
     top: 30px;
 }
 
-.videos {
-    position: relative;
-    top: 60px;
-
-}
-
 .espaciadoVideo {
     margin-right: 30px;
 }
 
-#tamVideo {
-    width: 47.5%;
-}
-
-.letra_grande {
-    font-size: 10.5ch;
-    
+.color_verde {
+    color: #78F14C;
 }
 
 .nito {
     font-weight: bold;
 }
 
+.letra_gris {
+    color: #9E9E9E;
 
+}
+
+.letra_Sans {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.linea_punteada{
+    border: none;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, #9E9E9E, #9E9E9E 5px, transparent 5px, transparent 10px);
+    background-size: 12px 2px; 
+} 
+
+.tamanio_medio {
+    font-size: 2.2ch;
+}
+
+.tamanio_grande {
+    font-size: 10.5ch;
+}
+
+.videos {
+    position: relative;
+    top: 60px;
+
+}
