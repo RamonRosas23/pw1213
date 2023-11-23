@@ -36,6 +36,7 @@ app.get('/api/maestros', (req, res) => {
         if (error) {
             throw error;
         }else{
+            res.header("Access-Control-Allow-Origin","*");
             res.send(filas);
         }
     });
